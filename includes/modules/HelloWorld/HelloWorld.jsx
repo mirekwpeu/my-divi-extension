@@ -12,9 +12,11 @@ class HelloWorld extends Component {
   render() {
     const Content = this.props.content;
 
+    //console.log(this.props);
+
     return (
       <h1>
-        <Content/>
+        <Content />
       </h1>
     );
   }

@@ -31,7 +31,7 @@ class SIMP_SimpleHeader extends ET_Builder_Module {
 	public function render( $unprocessed_props, $content, $render_slug ) {
 		return sprintf(
 			'<h1 class="simp-simple-header-heading">%1$s</h1>
-			<p>%2$s</p>',
+			%2$s',
 			esc_html( $this->props['heading'] ),
 			$this->props['content']
 		);
